@@ -1,0 +1,91 @@
+.navbar-brand {
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+}
+
+.container {
+  min-width: 90% !important;
+}
+
+.navbar-reverse {
+  background-color: #1E3D4C;
+  padding-top: 13px;
+  font-size: 1.2em;
+  border-color: #142933;
+  box-shadow: 0px 5px 10px #142933;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 1.2em;
+  line-height: 20px;
+}
+
+.navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: #3EA287;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+  color: #3EA287;
+}
+
+.navbar-nav > li > a {
+  font-weight: 6 00;
+}
+[class*="bg_"] {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  &:nth-child(2n) {
+    box-shadow: inset 0 0 1em #111;
+  }
+}
+.bg_home {
+  background-image: url(http://www.ashercharles.com/wp-content/themes/v3/images/banner-main-large4.jpg);
+  text-align: center;
+}
+.headline{
+  font-family: 'Sintony',sans-serif;
+  font-size: 40px;
+  color:#ffffff;
+  Padding-top: 200px;
+}
+.promo-text{
+  font-family: 'Sintony',sans-serif;
+  font-size: 25px;
+  Padding-top: 0px;
+  color:#ffffff;
+}
+.jumbotron {
+  min-height: 500px;
+  background-color : black;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  opacity :.9;
+  
+ 
+}
+.jumbotron-content {
+  font-family: 'Sintony',sans-serif;
+  padding-top: 5%;
+  font-size: 200%;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+#my-photo{
+  padding-top: 15%;
+  padding-left: 40px;
+ 
+}
+
